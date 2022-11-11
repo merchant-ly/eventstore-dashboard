@@ -37,8 +37,7 @@ defmodule Eventstore.Dashboard.MixProject do
 
   defp deps do
     [
-      # {:eventstore, ">= 1.4.0"},
-      {:eventstore, github: "commanded/eventstore"},
+      {:eventstore, ">= 1.4.0"},
       {:jason, "~> 1.2", only: [:dev, :test, :docs]},
       {:phoenix_live_dashboard, "~> 0.6"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
